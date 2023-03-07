@@ -1,0 +1,64 @@
+.navbar h1 {
+    color: rgb(32, 250, 12);
+    text-align: left;
+    padding-top: 0;
+
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  .navbar {
+    position: relative;
+    background-color: #333;
+    color: white;
+    width: 800px;
+    height: 100vh;
+    padding-top: 10px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    display: block;
+  }
+  
+  .navbar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+  }
+
+  .navbar a.active {
+    background-color: #4CAF50;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: bisque;
+  }
+
+  .content .home h1{
+    color: green;
+  }
+  
+  .content .home h2{
+    color: green;
+  }
+
+  .content .supply h1, h2, h3{
+   color: green;
+  }
+
+  .content .price h1{
+    color: green;
+  }
+
+  
